@@ -1,0 +1,20 @@
+@import url(https://fonts.bunny.net/css?family=nunito:400,600,700|playball:400);
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    @font-face {
+        font-family: "Custom-1";
+        src: url(/fonts/5yearsoldfont.ttf) format("woff");
+    }
+}
+
+.bg {
+    background-image: radial-gradient(circle, #555555 0, #222222 100%);
+}
+
+.pfp-chris {
+    background: url(./images/logo.png) center / contain;
+}
